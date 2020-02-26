@@ -1,0 +1,28 @@
+{
+  "name": "studiod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postcss": "postcss ./tailwind.css -o ./tailwind-prod.css",
+    "watch": "postcss ./tailwind.css -o ./tailwind-prod.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuanhsuh/wp-studiod.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuanhsuh/wp-studiod/issues"
+  },
+  "homepage": "https://github.com/kuanhsuh/wp-studiod#readme",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.0.6",
+    "autoprefixer": "^9.7.3",
+    "postcss-cli": "^7.1.0",
+    "postcss-import": "^12.0.1",
+    "tailwindcss": "^1.2.0"
+  }
+}
