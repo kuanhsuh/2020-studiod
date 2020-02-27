@@ -201,30 +201,31 @@ get_header(); ?>
 
       while ($query->have_posts()) : $query->the_post(); ?>
         <div class="w-full sm:w-4/12 px-2">
-          <div class="card">
-            <div class="relative">
-              <?php if (has_post_thumbnail()) {
-                the_post_thumbnail('medium', array('class'  => 'h-64 object-cover object-center w-full'));
-              } else {
-              ?>
-                <img src="<?php bloginfo('template_directory'); ?>/assets/images/blog/blog1.jpg" alt="">
-              <?php
-              } ?>
-              <div class="date ">
-                <span><?php echo get_the_date('F'); ?></span>
-                <div class="mt-1"><?php echo get_the_date('j'); ?></div>
-              </div>
+          <div class="card block w-full">
+            <div class="relative"><a href="<?php the_permalink(); ?>">
+                <?php if (has_post_thumbnail()) {
+                  the_post_thumbnail('medium', array('class'  => 'h-64 object-cover object-center w-full'));
+                } else {
+                ?>
+                  <img src="<?php bloginfo('template_directory'); ?>/assets/images/blog/blog1.jpg" alt="">
+                <?php
+                } ?>
+                <div class="date ">
+                  <span><?php echo get_the_date('F'); ?></span>
+                  <div class="mt-1"><?php echo get_the_date('j'); ?></div>
+                </div>
+              </a>
             </div>
             <!-- Card Img-->
             <div class="card-content p-4">
-              <h3 class="font-medium"><?php the_title(); ?></h3>
+              <h3 class="font-medium"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
               <div class="flex items-center my-2">
                 <svg class="mt-1 h-4 w-4 fill-current text-teal-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                   <path d="M2 2c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v18l-8-4-8 4V2zm2 0v15l6-3 6 3V2H4z" /></svg>
                 <span class="text-gray-600 ml-2"><?php incomplete_cat_list(', '); ?></span>
               </div>
               <p class="font-hairline">
-                <?php echo excerpt(30) ?>
+                <?php echo excerpt(30) ?><a <a href="<?php the_permalink(); ?>" class="text-sm text-teal-500">...繼續閱讀</a>
               </p>
             </div>
           </div>

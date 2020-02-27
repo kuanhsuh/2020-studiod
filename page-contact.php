@@ -34,48 +34,10 @@ get_header(); ?>
         <?php get_template_part('template-parts/content', 'contact-sidebar'); ?>
       </div> <!-- w-3/12 -->
       <div class="w-full sm:w-9/12 px-0 sm:px-8">
-        <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-          <div class="-mx-3 md:flex mb-6">
-            <div class="md:w-1/2 px-3 mb-6 md:mb-0">
-              <label class="label">
-                名字
-              </label>
-              <input class="input" type="text" placeholder="名字">
-            </div>
-            <div class="md:w-1/2 px-3">
-              <label class="label">
-                Email
-              </label>
-              <input class="input" type="text" placeholder="Email">
-            </div>
-          </div>
-          <div class="-mx-3 md:flex mb-6">
-            <div class="md:w-full px-3">
-              <label class="label">
-                電話
-              </label>
-              <input class="input" type="tel" placeholder="電話">
-            </div>
-          </div>
-          <div class="-mx-3 md:flex mb-6">
-            <div class="md:w-full px-3">
-              <label class="label">
-                你的訊息
-              </label>
-              <textarea class="input h-64" placeholder="請輸入你的訊息..."> </textarea>
-            </div>
-          </div>
-          <div class="flex justify-center">
-            <button class="btn border border-teal-600 text-teal-600 mr-2">重新設定</button>
-            <button class="btn bg-teal-500 text-white">送出</button>
-          </div>
-        </div>
+        <?php the_content(); ?>
       </div> <!-- w-9/12 -->
     </div>
   </div>
 </section>
 <?php
 get_footer();
-
-
-// <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.2714636744627!2d120.33127995020017!3d22.643665135992737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e04d05d9cf079%3A0x8b384df8bddb3463!2zODA36auY6ZuE5biC5LiJ5rCR5Y2A576p6I-v6LevMzg06Jmf!5e0!3m2!1szh-TW!2stw!4v1534949251016" width="600" height="450" allowfullscreen></iframe>

@@ -180,12 +180,11 @@ hr {
 /* Card */
 
 .card {
-  @apply border shadow border-gray-200 rounded;
-  min-height: 475px;
+  @apply border shadow rounded transition duration-300 transform;
 }
 
 .card:hover {
-  @apply shadow-lg;
+  @apply shadow-lg -translate-y-1;
 }
 
 
