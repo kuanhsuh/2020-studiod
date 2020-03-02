@@ -271,8 +271,6 @@ hr {
   @apply my-2;
 }
 
-/* Services */
-
 .services h1 {
   @apply text-3xl font-medium tracking-wide;
 }
@@ -286,7 +284,7 @@ hr {
 }
 
 .services p {
-  @apply font-light my-4
+  @apply font-light my-4;
 }
 
 .services-heading-img {
