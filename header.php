@@ -33,7 +33,7 @@
         <div class="container mx-auto md:px-0">
           <div class="flex flex-wrap justify-between items-center md:items-end">
             <a class="flex text-xl items-center" href="<?php echo home_url(); ?>">
-              <img src="<?php bloginfo('template_directory'); ?>/assets/images/logo.svg" alt="鎰誠數位-高雄Wordpress專家" class="w-8 h-8  mr-2">
+              <?php get_template_part('template-parts/content', 'svg-logo'); ?>
               鎰誠數位
             </a>
             <ul class="hidden md:flex md:items-end md:w-auto">
