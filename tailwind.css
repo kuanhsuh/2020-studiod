@@ -94,7 +94,7 @@ hr {
 }
 
 .teal-btn {
-  @apply bg-teal-500 text-white;
+  @apply bg-teal-500 text-white transition-all duration-300;
   outline: none;
   border: none;
   box-shadow: 0 5px #999;
@@ -111,7 +111,7 @@ hr {
 }
 
 .teal-outline-btn {
-  @apply border border-teal-100 text-teal-100;
+  @apply border border-teal-100 text-teal-100 transition-all duration-300;
   outline: none;
   box-shadow: 0 5px #999;
 }
@@ -122,6 +122,22 @@ hr {
 
 .teal-outline-btn:active {
   @apply border-teal-600 text-teal-200;
+  box-shadow: 0 2px #666;
+  transform: translateY(3px);
+}
+
+.dark-outline-btn {
+  @apply border border-teal-600 text-teal-600 transition-all duration-300;
+  outline: none;
+  box-shadow: 0 5px #999;
+}
+
+.dark-outline-btn:hover {
+  @apply border-teal-500 text-teal-400;
+}
+
+.dark-outline-btn:active {
+  @apply border-teal-500 text-teal-400;
   box-shadow: 0 2px #666;
   transform: translateY(3px);
 }
@@ -139,7 +155,7 @@ hr {
 /* Sidebar */
 
 .sidebar-heading {
-  @apply flex items-center bg-teal-500 text-white py-4 justify-center rounded-none;
+  @apply flex items-center bg-teal-500 text-white py-4 mb-0 justify-center rounded-none;
 }
 
 @screen sm {
@@ -149,7 +165,7 @@ hr {
 }
 
 .sidebar-li {
-  @apply pt-4 px-4 flex justify-between pb-3 border-b border-gray-100;
+  @apply pt-4 px-4 flex justify-between pb-3 border-b border-gray-100 transition-all duration-500;
 }
 
 .sidebar-li:hover {
@@ -237,6 +253,10 @@ hr {
 
 .single h1 {
   @apply text-3xl font-medium tracking-wide;
+}
+
+.single h2 {
+  @apply text-2xl font-medium my-5;
 }
 
 .single h3 {

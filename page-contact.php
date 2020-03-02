@@ -24,7 +24,7 @@ while (have_posts()) : the_post(); ?>
           </g>
         </svg>
       </h1>
-      <p class="font-hairline text-xl">這裡有一些SEO，網頁優化，程式教學文章 </p>
+      <p class="font-hairline text-xl">如果有網頁，數位行銷，和SEO相關的問題，請跟我聯絡！</p>
     </div>
   </header>
 

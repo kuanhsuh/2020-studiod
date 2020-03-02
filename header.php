@@ -46,11 +46,18 @@
               <li class="mr-2 px-2"><a href="<?php echo get_page_link(47); ?>">部落格</a></li>
               <li class="pl-2"><a href="<?php echo get_page_link(44); ?>">聯絡我們</a></li>
             </ul>
-            <span onclick="toggleMenu()" class="block md:hidden">
-              <div class="nav-bar"></div>
-              <div class="nav-bar"></div>
-              <div class="nav-bar"></div>
-            </span>
+            <div class="flex items-center md:hidden">
+              <a href="#" class="py-2 px-4 bg-teal-600 text-white rounded mr-2 ">
+                <svg class="h-4 w-4 fill-current text-white inline-block mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <path d="M20 18.35V19a1 1 0 01-1 1h-2A17 17 0 010 3V1a1 1 0 011-1h4a1 1 0 011 1v4c0 .56-.31 1.31-.7 1.7L3.16 8.84c1.52 3.6 4.4 6.48 8 8l2.12-2.12c.4-.4 1.15-.71 1.7-.71H19a1 1 0 01.99 1v3.35z" />
+                </svg>
+                +886-952-823-328</a>
+              <span onclick="toggleMenu()" class="block ">
+                <div class="nav-bar"></div>
+                <div class="nav-bar"></div>
+                <div class="nav-bar"></div>
+              </span>
+            </div>
             <ul id="responsive" class="sidebar hidden w-1/2 shadow h-full text-center md:hidden bg-white fixed" style="z-index: 50; top: 0; right: 0">
               <li class="py-3 text-right pr-6">
                 <span onclick="toggleMenu()" class="inline-block relative" style="width: 25px; height: 25px; margin-top: 15px;">
