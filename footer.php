@@ -63,7 +63,7 @@
           <li class="mb-2"><a href="<?php echo esc_html(site_url("/")) ?>">首頁</a></li>
           <li class="mb-2"><a href="<?php echo esc_html(site_url("/all-courses")) ?>">線上課程</a></li>
           <li class="mb-2"><a href="<?php echo esc_html(site_url("/contact-info")) ?>">程式服務</a></li>
-          <li class="mb-2"><a href<?php echo esc_html(site_url("/wordpress-website")) ?>">部落格</a></li>
+          <li class="mb-2"><a href="<?php echo esc_html(site_url("/wordpress-website")) ?>">部落格</a></li>
           <li><a href="<?php echo esc_html(site_url("/contact-info")) ?>">聯絡我們</a></li>
         </ul>
       </div>
