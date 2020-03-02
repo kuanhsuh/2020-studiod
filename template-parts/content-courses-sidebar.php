@@ -8,8 +8,8 @@
   </li>
   <li><a class="sidebar-li" href="<?php echo esc_html(site_url("/combo-classes")) ?>">組合包<?php get_template_part('template-parts/content', 'svg-chevron'); ?></a>
   </li>
-  <!-- <li><a class="sidebar
-  -li" href="<?php echo esc_html(site_url("/wordpress-website")) ?>">免費<?php get_template_part('template-parts/content', 'svg-chevron'); ?></a> -->
+  <li><a class="sidebar
+  -li" href="<?php echo esc_html(site_url("/free-courses")) ?>">免費資源<?php get_template_part('template-parts/content', 'svg-chevron'); ?></a>
   </li>
   <!-- <li><a class="sidebar-li" href="<?php echo esc_html(site_url("/wordpress-website")) ?>">線上輔導課程<?php get_template_part('template-parts/content', 'svg-chevron'); ?></a>
   </li>
