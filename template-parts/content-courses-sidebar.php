@@ -4,7 +4,7 @@
 <ul class="shadow rounded-b">
   <li><a class="sidebar-li" href="<?php echo esc_html(site_url("/all-courses")) ?>">所有<?php get_template_part('template-parts/content', 'svg-chevron'); ?></a>
   </li>
-  <li><a class="sidebar-li" href="<?php echo esc_html(site_url("/courses")) ?>">單獨課程<?php get_template_part('template-parts/content', 'svg-chevron'); ?></a>
+  <li><a class="sidebar-li" href="<?php echo esc_html(site_url("/single-course")) ?>">單獨課程<?php get_template_part('template-parts/content', 'svg-chevron'); ?></a>
   </li>
   <li><a class="sidebar-li" href="<?php echo esc_html(site_url("/combo-classes")) ?>">組合包<?php get_template_part('template-parts/content', 'svg-chevron'); ?></a>
   </li>

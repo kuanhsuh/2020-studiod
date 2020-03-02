@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Classes Page */
+/* Template Name: All Classes Page */
 get_header(); ?>
 <!-- section title -->
 <header class="py-8 bg-teal-800 text-white">
