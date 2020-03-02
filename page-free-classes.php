@@ -22,7 +22,7 @@ get_header(); ?>
           <!-- card -->
           <div class="w-full sm:w-6/12 px-4 mb-10">
             <a target="_blank" rel="me noopener noreferrer" href="https://www.udemy.com/course/intro-to-web-dev-no-experience/" class="block card rounded overflow-hidden">
-              <img src="<?php echo get_theme_file_uri('/images/courses/udemy-free.png') ?>" alt="Udemy 網頁開發體驗課" class="w-full" />
+              <img src="<?php echo get_theme_file_uri('/images/courses/udemy-free.jpg') ?>" alt="Udemy 網頁開發體驗課" class="w-full" />
               <div class="px-4 py-6 border-b-8 border-teal-600">
                 <h3 class="mb-4 text-xl">
                   網頁開發體驗課
@@ -45,7 +45,7 @@ get_header(); ?>
           <!-- card -->
           <div class="w-full sm:w-6/12 px-4 mb-10">
             <a target="_blank" rel="me noopener noreferrer" href="https://www.youtube.com/user/kuanhsuh" class="block card rounded overflow-hidden">
-              <img src="<?php echo get_theme_file_uri('/images/courses/udemy-free.png') ?>" alt="Big Boy Youtube" class="w-full" />
+              <img src="<?php echo get_theme_file_uri('/images/courses/bigboy-youtube.png') ?>" alt="Big Boy Youtube" class="w-full" />
               <div class="px-4 py-6 border-b-8 border-teal-600">
                 <h3 class="mb-4 text-xl">
                   Big Boy Youtube
