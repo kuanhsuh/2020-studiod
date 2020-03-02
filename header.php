@@ -49,7 +49,7 @@
               <li class="pl-2"><a href="<?php echo esc_html(site_url("/contact-info")) ?>">聯絡我們</a></li>
             </ul>
             <div class="flex items-center md:hidden">
-              <a href="#" class="py-2 px-4 bg-teal-600 text-white rounded mr-2 ">
+              <a href="tel:0952823328" class="py-2 px-4 bg-teal-600 text-white rounded mr-2 ">
                 <svg class="h-4 w-4 fill-current text-white inline-block mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                   <path d="M20 18.35V19a1 1 0 01-1 1h-2A17 17 0 010 3V1a1 1 0 011-1h4a1 1 0 011 1v4c0 .56-.31 1.31-.7 1.7L3.16 8.84c1.52 3.6 4.4 6.48 8 8l2.12-2.12c.4-.4 1.15-.71 1.7-.71H19a1 1 0 01.99 1v3.35z" />
                 </svg>
@@ -62,13 +62,12 @@
             </div>
             <ul id="responsive" class="sidebar hidden w-1/2 shadow h-full text-center md:hidden bg-white fixed" style="z-index: 50; top: 0; right: 0">
               <li class="py-3 text-right pr-6">
-                <span onclick="toggleMenu()" class="inline-block relative" style="width: 25px; height: 25px; margin-top: 15px;">
+                <span onclick="toggleMenu()" class="inline-block relative" style="width: 25px; height: 25px; margin-top: 10px; left: 10px;">
                   <div class="nav-cross absolute" style=""></div>
                   <div class="nav-cross-2 absolute top-0"></div>
                 </span>
               </li>
-              <li class="py-2 text-gray-600"><a href="#">首頁</a></li>
-              <li class="py-2"><a href="<?php echo home_url(); ?>">公司介紹</a></li>
+              <li class="py-2 text-gray-600"><a href="<?php echo home_url(); ?>">首頁</a></li>
               <li class="py-2"><a href="<?php echo esc_html(site_url("/wordpress-website")) ?>">程式服務</a></li>
               <!-- <li class="py-2"><a href="<? php // echo get_page_link(517); 
                                               ?>">線上課程</a></li>
