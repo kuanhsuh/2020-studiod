@@ -4,7 +4,7 @@ get_header();
 while (have_posts()) : the_post(); ?>
 
 
-  <header class="px-0 sm:px-0 py-8 bg-teal-600 text-white">
+  <header class="px-0 sm:px-0 py-8 bg-teal-800 text-white">
     <div class="container mx-auto">
       <h1 class="page-heading mb-6 flex items-center">聯絡我們
         <svg class="h-12 w-12 ml-4 mt-1" viewBox="0 0 58 58" xmlns="http://www.w3.org/2000/svg">
@@ -25,7 +25,7 @@ while (have_posts()) : the_post(); ?>
           </g>
         </svg>
       </h1>
-      <p class="font-hairline text-xl">這裡有一些SEO，網頁優化，程式教學文章 </p>
+      <p class="font-hairline text-xl">如果有網頁，數位行銷，和SEO相關的問題，請跟我聯絡！ </p>
     </div>
   </header>
 

@@ -2,10 +2,10 @@
   聯絡
 </h3>
 <ul class="shadow">
-  <li class="sidebar-li">聯絡資料<?php get_template_part('template-parts/content', 'svg-chevron'); ?>
+  <li><a class="sidebar-li" href="<?php echo esc_html(site_url("/contact-info")) ?>">聯絡資料<?php get_template_part('template-parts/content', 'svg-chevron'); ?></a>
   </li>
-  <li class="sidebar-li">聯絡我們<?php get_template_part('template-parts/content', 'svg-chevron'); ?>
+  <li><a class="sidebar-li" href="<?php echo esc_html(site_url("/contact-us")) ?>">聯絡我們<?php get_template_part('template-parts/content', 'svg-chevron'); ?></a>
   </li>
-  <li class="sidebar-li">詢價單<?php get_template_part('template-parts/content', 'svg-chevron'); ?>
+  <li><a class="sidebar-li" href="<?php echo esc_html(site_url("/quotations")) ?>">詢價單<?php get_template_part('template-parts/content', 'svg-chevron'); ?></a>
   </li>
 </ul>

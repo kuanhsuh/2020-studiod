@@ -271,11 +271,25 @@ hr {
   @apply my-2;
 }
 
-.single a {
-  @apply text-blue-600;
+/* Services */
+
+.services h1 {
+  @apply text-3xl font-medium tracking-wide;
 }
 
-.single-heading-img {
+.services h2 {
+  @apply text-2xl font-medium my-5;
+}
+
+.services h3 {
+  @apply text-xl font-medium my-5;
+}
+
+.services p {
+  @apply font-light my-4
+}
+
+.services-heading-img {
   @apply object-cover object-center w-full;
   height: 500px;
 }

@@ -57,10 +57,10 @@
       <div class="w-full sm:w-4/12 px-8 sm:px-6 mt-8 sm:mt-0">
         <h3 class="text-gray-300 text-xl font-normal mb-6">導覽列</h3>
         <ul class="text-gray-500 font-normal">
-          <li class="mb-2">首頁</li>
-          <li class="mb-2">作品</li>
-          <li class="mb-2">部落格</li>
-          <li>聯絡我們</li>
+          <li class="mb-2"><a href="<?php echo esc_html(site_url("/")) ?>">首頁</a></li>
+          <li class="mb-2"><a href="<?php echo esc_html(site_url("/contact-info")) ?>">程式服務</a></li>
+          <li class="mb-2"><a href<?php echo esc_html(site_url("/wordpress-website")) ?>">部落格</a></li>
+          <li><a href="<?php echo esc_html(site_url("/contact-info")) ?>">聯絡我們</a></li>
         </ul>
       </div>
       <div class="w-full sm:w-4/12 px-8 sm:px-6 mt-8 sm:mt-0">
