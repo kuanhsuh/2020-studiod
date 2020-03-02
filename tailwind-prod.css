@@ -167,6 +167,28 @@ hr {
   transform: translateY(3px);
 }
 
+.dark-outline-btn {
+  border-width: 1px;
+  border-color: #319795;
+  color: #319795;
+  transition-property: all;
+  transition-duration: 300ms;
+  outline: none;
+  box-shadow: 0 5px #999;
+}
+
+.dark-outline-btn:hover {
+  border-color: #38b2ac;
+  color: #4fd1c5;
+}
+
+.dark-outline-btn:active {
+  border-color: #38b2ac;
+  color: #4fd1c5;
+  box-shadow: 0 2px #666;
+  transform: translateY(3px);
+}
+
 /* Headings */
 
 .page-heading {
@@ -455,7 +477,9 @@ code {
  */
 
 button,
-input {
+input,
+select,
+textarea {
   padding: 0;
   line-height: inherit;
   color: inherit;
@@ -493,24 +517,29 @@ button,
   cursor: pointer;
 }
 
-input::-webkit-input-placeholder {
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   color: #a0aec0;
 }
 
-input::-moz-placeholder {
+input::-moz-placeholder, textarea::-moz-placeholder {
   color: #a0aec0;
 }
 
-input:-ms-input-placeholder {
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   color: #a0aec0;
 }
 
-input::-ms-input-placeholder {
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
   color: #a0aec0;
 }
 
-input::placeholder {
+input::placeholder,
+textarea::placeholder {
   color: #a0aec0;
+}
+
+textarea {
+  resize: vertical;
 }
 
 img {
@@ -787,7 +816,9 @@ img {
  */
 
 button,
-input {
+input,
+select,
+textarea {
   font-family: inherit; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
@@ -809,7 +840,8 @@ input { /* 1 */
  * 1. Remove the inheritance of text transform in Firefox.
  */
 
-button { /* 1 */
+button,
+select { /* 1 */
   text-transform: none;
 }
 
@@ -827,12 +859,22 @@ button,
  * Remove the inner border and padding in Firefox.
  */
 
+.appearance-none {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
 .bg-white {
   background-color: #fff;
 }
 
 .bg-gray-100 {
   background-color: #f7fafc;
+}
+
+.bg-gray-200 {
+  background-color: #edf2f7;
 }
 
 .bg-teal-600 {
@@ -847,12 +889,24 @@ button,
   background-color: #234e52;
 }
 
+.focus\:bg-white:focus {
+  background-color: #fff;
+}
+
+.border-gray-200 {
+  border-color: #edf2f7;
+}
+
 .border-gray-300 {
   border-color: #e2e8f0;
 }
 
 .border-teal-600 {
   border-color: #319795;
+}
+
+.focus\:border-gray-500:focus {
+  border-color: #a0aec0;
 }
 
 .rounded {
@@ -972,6 +1026,10 @@ button,
 
 .h-full {
   height: 100%;
+}
+
+.leading-tight {
+  line-height: 1.25;
 }
 
 .mx-0 {
@@ -1109,6 +1167,10 @@ button,
      object-position: center;
 }
 
+.focus\:outline-none:focus {
+  outline: 0;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1199,8 +1261,16 @@ button,
   padding-top: 1rem;
 }
 
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
 .pr-6 {
   padding-right: 1.5rem;
+}
+
+.pr-8 {
+  padding-right: 2rem;
 }
 
 .pb-8 {
@@ -1209,6 +1279,10 @@ button,
 
 .pb-12 {
   padding-bottom: 3rem;
+}
+
+.pointer-events-none {
+  pointer-events: none;
 }
 
 .fixed {
@@ -1228,12 +1302,25 @@ button,
   position: sticky;
 }
 
+.inset-y-0 {
+  top: 0;
+  bottom: 0;
+}
+
 .top-0 {
   top: 0;
 }
 
+.right-0 {
+  right: 0;
+}
+
 .shadow {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 .fill-current {
@@ -1266,6 +1353,10 @@ button,
 
 .text-gray-600 {
   color: #718096;
+}
+
+.text-gray-700 {
+  color: #4a5568;
 }
 
 .text-teal-300 {
@@ -1423,6 +1514,10 @@ button:-moz-focusring,
  * Remove the default vertical scrollbar in IE 10+.
  */
 
+textarea {
+  overflow: auto;
+}
+
 /**
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
@@ -1545,6 +1640,10 @@ button:-moz-focusring,
     align-items: flex-end;
   }
 
+  .md\:mb-0 {
+    margin-bottom: 0;
+  }
+
   .md\:px-0 {
     padding-left: 0;
     padding-right: 0;
@@ -1552,6 +1651,10 @@ button:-moz-focusring,
 
   .md\:w-auto {
     width: auto;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
   }
 
   .md\:w-5\/12 {
@@ -1564,5 +1667,9 @@ button:-moz-focusring,
 
   .md\:w-7\/12 {
     width: 58.333333%;
+  }
+
+  .md\:w-full {
+    width: 100%;
   }
 }

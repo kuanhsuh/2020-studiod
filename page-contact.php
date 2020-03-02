@@ -38,9 +38,52 @@ while (have_posts()) : the_post(); ?>
         <div class="w-full sm:w-9/12 px-0 sm:px-8">
           <?php the_content(); ?>
         </div> <!-- w-9/12 -->
+
       </div>
     </div>
   </section>
 <?php endwhile; ?>
+<!-- <div class="bg-white shadow-lg rounded px-8 pt-6 pb-8 mb-4">
+<h3 class="text-center font-medium text-3xl mb-6">詢價單</h3>
+<div class="-mx-3 md:flex mb-6">
+<div class="md:w-1/2 px-3 mb-6 md:mb-0">
+                <label class="label">名字</label><input class="input" type="text" placeholder="名字"></div>
+<div class="md:w-1/2 px-3">
+                <label class="label">Email</label><input class="input" type="text" placeholder="Email"></div>
+</div>
+<div class="-mx-3 md:flex mb-6">
+<div class="md:w-1/2 px-3">
+                <label class="label">公司名字</label><input class="input" type="text" placeholder="Email"></div>
+<div class="md:w-1/2 px-3">
+                <label class="label">電話</label>
+<input class="input" type="tel" placeholder="電話"></div>
+</div>
+<div class="-mx-3 md:flex mb-6">
+<div class="md:w-1/2 px-3">
+                <label class="label">專案類型</label>
+<div class="relative">
+                  <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+<option>一頁式網頁</option>
+<option>公司官網</option>
+<option>購物車</option>
+<option>網頁應用系統</option>
+</select>
+<div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path></svg></div>
+</div>
+</div>
+<div class="md:w-1/2 px-3">
+                <label class="label">預算</label><input class="input" type="tel" placeholder="預算"></div>
+</div>
+<div class="-mx-3 md:flex mb-6">
+<div class="md:w-full px-3">
+                <label class="label">你的訊息</label>
+<textarea class="input h-64" placeholder="請輸入你的訊息..."> </textarea></div>
+</div>
+<div class="flex justify-center">
+              <button class="btn dark-outline-btn mr-2">重新設定</button>
+<button class="btn teal-btn">送出</button></div>
+</div> -->
 <?php
 get_footer();
