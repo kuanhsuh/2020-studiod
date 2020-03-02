@@ -61,6 +61,7 @@
         <h3 class="text-gray-300 text-xl font-normal mb-6">導覽列</h3>
         <ul class="text-gray-500 font-normal">
           <li class="mb-2"><a href="<?php echo esc_html(site_url("/")) ?>">首頁</a></li>
+          <li class="mb-2"><a href="<?php echo esc_html(site_url("/all-courses")) ?>">線上課程</a></li>
           <li class="mb-2"><a href="<?php echo esc_html(site_url("/contact-info")) ?>">程式服務</a></li>
           <li class="mb-2"><a href<?php echo esc_html(site_url("/wordpress-website")) ?>">部落格</a></li>
           <li><a href="<?php echo esc_html(site_url("/contact-info")) ?>">聯絡我們</a></li>

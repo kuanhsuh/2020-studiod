@@ -10,8 +10,8 @@ get_header(); ?>
       你在尋找專業的網頁設計？
       <p class="text-xl font-light mt-4">別讓你的網頁成為你的豬的隊友</p>
       <div class="flex justify-center mt-6">
-        <a href="#" class="btn teal-btn mr-4">我要網頁服務</a>
-        <a href="#" class="btn teal-outline-btn">我要學程式</a>
+        <a href="<?php echo esc_html(site_url("/wordpress-website")) ?>" class="btn teal-btn mr-4">我要網頁服務</a>
+        <a href="<?php echo esc_html(site_url("/all-courses")) ?>" class="btn teal-outline-btn">我要學程式</a>
       </div>
     </div>
   </div>
