@@ -22,7 +22,7 @@
         <ul class="mt-6 flex">
           <li>
             <!-- Youtube -->
-            <a href="https://www.youtube.com/user/kuanhsuh">
+            <a target="_blank" rel="me noopener noreferrer" href="https://www.youtube.com/user/kuanhsuh">
               <svg class="h-10 w-10 fill-current text-teal-300 inline-block mr-2" viewBox="0 -61 512 512" xmlns="http://www.w3.org/2000/svg">
                 <path d="M437 0H75C33.602 0 0 33.602 0 75v240c0 41.398 33.602 75 75 75h362c41.398 0 75-33.602 75-75V75c0-41.398-33.602-75-75-75zm0 0" fill="#ff3939" />
                 <path d="M512 75v240c0 41.398-33.602 75-75 75H256V0h181c41.398 0 75 33.602 75 75zm0 0" fill="#c90232" />
@@ -33,7 +33,7 @@
           </li>
           <li>
             <!-- FB -->
-            <a href="https://www.youtube.com/user/kuanhsuh">
+            <a target="_blank" rel="me noopener noreferrer" href="https://www.facebook.com/bigboycancode/">
               <svg class="h-10 w-10 inline-block mr-2" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                 <path d="M497 512H15c-8.284 0-15-6.716-15-15V15C0 6.716 6.716 0 15 0h482c8.284 0 15 6.716 15 15v482c0 8.284-6.716 15-15 15z" fill="#3a559f" />
                 <path d="M497 0H256v512h241c8.284 0 15-6.716 15-15V15c0-8.284-6.716-15-15-15z" fill="#23448e" />
@@ -44,7 +44,7 @@
 
           </li>
           <li>
-            <a href="https://line.me/ti/p/QlwtgbbMMS">
+            <a target="_blank" rel="me noopener noreferrer" href="https://line.me/ti/p/QlwtgbbMMS">
               <svg class="h-10 w-10 inline-block mr-2" viewBox="0 -11 512 512" xmlns="http://www.w3.org/2000/svg">
                 <path d="M435.863 60.645C387.683 21.535 323.805 0 256 0S124.32 21.535 76.137 60.645C27.039 100.488 0 153.746 0 210.602c0 53.503 24.348 104.472 68.555 143.515 39.937 35.27 92.96 58.04 150.535 64.875v55.856c0 8.285 6.715 15 15 15 25.945 0 96.18-31.84 155.476-77.528 35.422-27.293 63.809-56.601 84.368-87.12C499.19 287.71 512 249.151 512 210.601c0-56.856-27.04-110.114-76.137-149.957zm0 0" fill="#54e360" />
                 <path d="M435.863 60.645C387.683 21.535 323.805 0 256 0v485.73c33.285-9.988 86.82-37.394 133.566-73.41 35.422-27.293 63.809-56.601 84.368-87.12C499.19 287.71 512 249.151 512 210.601c0-56.856-27.04-110.114-76.137-149.957zm0 0" fill="#1fbf66" />
