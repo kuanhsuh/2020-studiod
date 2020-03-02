@@ -71,13 +71,19 @@ hr {
   content: '\A';
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 53%;
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.6);
   opacity: 0.6;
   transition: all 1s;
   -webkit-transition: all 1s;
+}
+
+@screen sm {
+  .header-bg-img:after {
+    height: 100%;
+  }
 }
 
 .text-container {
