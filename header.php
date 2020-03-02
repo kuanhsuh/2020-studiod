@@ -40,10 +40,9 @@
               <li class="mr-2 px-2 text-gray-600 font-medium">
                 <a href="<?php echo home_url(); ?>">首頁</a>
               </li>
-              <li class="mr-2 px-2"><a href="<?php echo esc_html(site_url("/wordpress-website")) ?>">程式服務</a></li>
-              <li class="mr-2 px-2"><a href="<?php echo esc_html(site_url("/all-courses")) ?>">線上課程</a></li>
-              <!--<li class="mr-2 px-2"><a href="<? php // echo get_page_link(2); 
-                                                  ?>">作品</a></li> -->
+              <li class="mr-2 px-2"><a href="<?php echo esc_html(site_url("/wordpress-website")); ?>">程式服務</a></li>
+              <li class="mr-2 px-2"><a href="<?php echo esc_html(site_url("/all-courses")); ?>">線上課程</a></li>
+              <li class="mr-2 px-2"><a href="<?php echo esc_html(site_url("/portfolio")); ?>">作品</a></li>
               <li class="mr-2 px-2"><a href="<?php echo get_page_link(47); ?>">部落格</a></li>
               <li class="pl-2"><a href="<?php echo esc_html(site_url("/contact-info")) ?>">聯絡我們</a></li>
             </ul>
@@ -69,8 +68,7 @@
               <li class="py-2 text-gray-600"><a href="<?php echo home_url(); ?>">首頁</a></li>
               <li class="py-2"><a href="<?php echo esc_html(site_url("/wordpress-website")) ?>">程式服務</a></li>
               <li class="py-2"><a href="<?php echo esc_html(site_url("/courses")) ?>">線上課程</a></li>
-              <!--<li class="py-2"><a href="<? php // echo get_page_link(2); 
-                                            ?>">作品</a></li> -->
+              <li class="py-2"><a href="<?php echo esc_html(site_url("/portfolio")); ?>">作品</a></li>
               <li class="py-2"><a href="<?php echo get_page_link(47); ?>">部落格</a></li>
               <li class="py-2"><a href="<?php echo esc_html(site_url("/contact-info")) ?>">聯絡我們</a></li>
             </ul>
