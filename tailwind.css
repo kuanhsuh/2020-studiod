@@ -148,6 +148,14 @@ hr {
   transform: translateY(3px);
 }
 
+.form-select {
+  @apply block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight;
+}
+
+.form-select:focus {
+  @apply border-gray-500 bg-white outline-none;
+}
+
 /* Headings */
 
 .page-heading {
