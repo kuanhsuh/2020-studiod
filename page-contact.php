@@ -43,7 +43,7 @@ while (have_posts()) : the_post(); ?>
     </div>
   </section>
 <?php endwhile; ?>
-<!-- <div class="bg-white shadow-lg rounded px-8 pt-6 pb-8 mb-4">
+<!-- <div class="bg-white form-select shadow-lg rounded px-8 pt-6 pb-8 mb-4">
 <h3 class="text-center font-medium text-3xl mb-6">詢價單</h3>
 <div class="-mx-3 md:flex mb-6">
 <div class="md:w-1/2 px-3 mb-6 md:mb-0">
