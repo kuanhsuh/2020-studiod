@@ -42,8 +42,8 @@ while (have_posts()) : the_post(); ?>
           <?php the_content(); ?>
         <?php endwhile;
       wp_reset_query(); ?>
-
-        <h3>相關作品</h3>
+        <hr>
+        <h3 class="text-center mb-4">相關作品</h3>
         <div class="flex flex-wrap sm:-mx-2">
           <?php
           //for use in the loop, list 5 post titles related to first tag on current post
