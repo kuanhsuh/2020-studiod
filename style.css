@@ -397,6 +397,12 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
   text-align: center;
 }
 
+.wp-block-image figcaption {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: .5em;
+  margin-bottom: 1em;
+}
 
 /*--------------------------------------------------------------
 ## Galleries

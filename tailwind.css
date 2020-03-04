@@ -21,6 +21,11 @@ hr {
   @apply border-b-0 border-gray-300;
 }
 
+figure {
+  margin: 0;
+  padding: 0;
+}
+
 .z-100 {
   z-index: 100;
 }

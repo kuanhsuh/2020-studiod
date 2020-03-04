@@ -900,6 +900,10 @@ button:-moz-focusring,
   outline: 1px dotted ButtonText;
 }
 
+/**
+ * Correct the padding in Firefox.
+ */
+
 .appearance-none {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -1526,10 +1530,6 @@ button:-moz-focusring,
   --transform-scale-y: 1;
   transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
 }
-
-/**
- * Correct the padding in Firefox.
- */
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
