@@ -44,7 +44,7 @@ get_header(); ?>
           <!-- /card -->
           <!-- card -->
           <div class="w-full sm:w-6/12 px-4 mb-10">
-            <a target="_blank" rel="me noopener noreferrer" href="https://hiskio.com/courses/336?promo_code=QE80YWG" class="block card rounded overflow-hidden">
+            <a target="_blank" rel="me noopener noreferrer" href="split.to/lEsmoCz" class="block card rounded overflow-hidden">
               <img src="<?php echo get_theme_file_uri('/images/courses/hiskio-js.png') ?>" alt="hiskio-css-課程" class="w-full" />
               <div class="px-4 py-6 border-b-8 border-teal-600">
                 <h3 class="mb-4 text-xl">
