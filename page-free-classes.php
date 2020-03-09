@@ -65,6 +65,52 @@ get_header(); ?>
             </a>
           </div>
           <!-- /card -->
+          <!-- card -->
+          <div class="w-full sm:w-6/12 px-4 mb-10">
+            <a target="_blank" rel="me noopener noreferrer" href="https://www.youtube.com/playlist?list=PLGBY4JjI_1Pgeq1vqOAZVlM7FzCrKkK-c" class="block card rounded overflow-hidden">
+              <img src="<?php echo get_theme_file_uri('/images/courses/hiskio-js.png') ?>" alt="Big Boy Javascript課程" class="w-full" />
+              <div class="px-4 py-6 border-b-8 border-teal-600">
+                <h3 class="mb-4 text-xl">
+                  JS 課程-Youtube試上版
+                </h3>
+                <div class="flex justify-between">
+                  <div class="flex items-center">
+                    <?php get_template_part('template-parts/content', 'svg-user'); ?>
+                    +5000人
+                  </div>
+
+                  <div class="flex items-center">
+                    <?php get_template_part('template-parts/content', 'svg-cart'); ?>
+                    免費
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- /card -->
+          <!-- card -->
+          <div class="w-full sm:w-6/12 px-4 mb-10">
+            <a target="_blank" rel="me noopener noreferrer" href="https://youtu.be/8vKSni6mNBk" class="block card rounded overflow-hidden">
+              <img src="<?php echo get_theme_file_uri('/images/courses/hiskio-css.png') ?>" alt="Big Boy CSS Course" class="w-full" />
+              <div class="px-4 py-6 border-b-8 border-teal-600">
+                <h3 class="mb-4 text-xl">
+                  CSS課程-Youtube試上版
+                </h3>
+                <div class="flex justify-between">
+                  <div class="flex items-center">
+                    <?php get_template_part('template-parts/content', 'svg-user'); ?>
+                    +5000人
+                  </div>
+
+                  <div class="flex items-center">
+                    <?php get_template_part('template-parts/content', 'svg-cart'); ?>
+                    免費
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- /card -->
         </div>
       </div>
     </div>
