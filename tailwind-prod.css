@@ -1716,3 +1716,10 @@ textarea {
     width: 100%;
   }
 }
+
+@media (min-width: 1024px) {
+
+  .lg\:w-4\/12 {
+    width: 33.333333%;
+  }
+}
