@@ -902,6 +902,12 @@ hr {
   border-radius: 50%;
 }
 
+.text-overflow {
+  overflow : hidden;
+  text-overflow : ellipsis;
+  white-space : nowrap;
+}
+
 /* Single */
 
 .single h1 {
