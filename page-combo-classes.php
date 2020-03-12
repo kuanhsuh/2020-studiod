@@ -34,7 +34,7 @@ get_header(); ?>
 
                   <div class="flex items-center">
                     <?php get_template_part('template-parts/content', 'svg-cart'); ?>
-                    特價 NT$3690
+                    NT$3690
                   </div>
                 </div>
               </div>
@@ -56,7 +56,7 @@ get_header(); ?>
 
                   <div class="flex items-center">
                     <?php get_template_part('template-parts/content', 'svg-cart'); ?>
-                    特價 NT$2690
+                    NT$2690
                   </div>
                 </div>
               </div>
@@ -78,7 +78,7 @@ get_header(); ?>
 
                   <div class="flex items-center">
                     <?php get_template_part('template-parts/content', 'svg-cart'); ?>
-                    特價 NT$2290
+                    NT$2290
                   </div>
                 </div>
               </div>
