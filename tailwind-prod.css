@@ -903,9 +903,9 @@ hr {
 }
 
 .text-overflow {
-  overflow : hidden;
-  text-overflow : ellipsis;
-  white-space : nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 /* Single */
@@ -1499,6 +1499,10 @@ hr {
 
 .text-teal-800 {
   color: #285e61;
+}
+
+.text-xs {
+  font-size: 0.75rem;
 }
 
 .text-sm {

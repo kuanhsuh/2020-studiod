@@ -28,7 +28,7 @@ get_header(); ?>
             <a href="<?php the_permalink(); ?>" class="block">
               <div class="relative">
                 <?php if (has_post_thumbnail()) { ?>
-                  <?php the_post_thumbnail("", array('class'  => 'h-64 w-full rounded object-cover object-center')); ?>
+                  <?php the_post_thumbnail("", array('class'  => 'h-64 w-full rounded object-cover object-center blog-thumbnail')); ?>
                 <?php } ?>
                 <div class="article-date">
                   <?php echo get_the_date('F j, Y'); ?>
