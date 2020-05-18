@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="profile" href="https://gmpg.org/xfn/11">
   <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/assets/images/favicon.ico" type="image/x-icon">
-
+  <meta name="google-site-verification" content="nQukoU1-KdKA3UeVP6rCQjzNtddNSq0det-l2hhHomI" />
   <?php wp_head(); ?>
 </head>
 
