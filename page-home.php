@@ -7,7 +7,7 @@ get_header(); ?>
 <header class="container mx-auto">
   <div class="header-bg-img">
     <div class="text-container">
-      你在尋找專業的網頁設計？123
+      你在尋找專業的網頁設計？
       <p class="text-xl font-light mt-4">別讓你的網頁成為你的豬的隊友</p>
       <div class="flex justify-center mt-6">
         <a href="<?php echo esc_html(site_url("/wordpress-website")) ?>" class="btn teal-btn mr-4">我要網頁服務</a>
