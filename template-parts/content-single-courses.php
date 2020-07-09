@@ -87,7 +87,7 @@
 
         <div class="flex items-center">
           <?php get_template_part('template-parts/content', 'svg-cart'); ?>
-          NT$990 (預購中)
+          NT$990
         </div>
       </div>
     </div>
