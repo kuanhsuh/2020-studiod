@@ -72,7 +72,7 @@
 <!-- /card -->
 <!-- card -->
 <div class="w-full sm:w-6/12 lg:w-4/12 px-4 mb-10">
-  <a target="_blank" rel="me noopener noreferrer" href="https://hiskio.com/courses/400?promo_code=J3M4D5G" class="block card rounded overflow-hidden">
+  <a target="_blank" rel="me noopener noreferrer" href="https://www.bigboycancode.com/hiskio-wp" class="block card rounded overflow-hidden">
     <img src="<?php echo get_theme_file_uri('/images/courses/hiskio-wordpress.jpg') ?>" alt="hiskio-wordpress-課程" class="w-full" />
     <div class="px-4 py-6 border-b-8 border-teal-600">
       <p class="text-xs">&nbsp;</p>
@@ -87,7 +87,7 @@
 
         <div class="flex items-center">
           <?php get_template_part('template-parts/content', 'svg-cart'); ?>
-          NT$990
+          NT$1290
         </div>
       </div>
     </div>
