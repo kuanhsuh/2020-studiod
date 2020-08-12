@@ -10,7 +10,7 @@
       <div class="flex justify-between">
         <div class="flex items-center">
           <?php get_template_part('template-parts/content', 'svg-user'); ?>
-          138人
+          153人
         </div>
 
         <div class="flex items-center">
@@ -34,7 +34,7 @@
       <div class="flex justify-between">
         <div class="flex items-center">
           <?php get_template_part('template-parts/content', 'svg-user'); ?>
-          251人
+          278人
         </div>
 
         <div class="flex items-center">
@@ -58,7 +58,7 @@
       <div class="flex justify-between">
         <div class="flex items-center">
           <?php get_template_part('template-parts/content', 'svg-user'); ?>
-          217人
+          239人
         </div>
 
         <div class="flex items-center">
@@ -82,7 +82,7 @@
       <div class="flex justify-between">
         <div class="flex items-center">
           <?php get_template_part('template-parts/content', 'svg-user'); ?>
-          70人
+          140人
         </div>
 
         <div class="flex items-center">
