@@ -10,7 +10,7 @@
       <div class="flex justify-between">
         <div class="flex items-center">
           <?php get_template_part('template-parts/content', 'svg-user'); ?>
-          153人
+          250人
         </div>
 
         <div class="flex items-center">
@@ -24,7 +24,7 @@
 <!-- /card -->
 <!-- card -->
 <div class="w-full sm:w-6/12 lg:w-4/12 px-4 mb-10">
-  <a target="_blank" rel="me noopener noreferrer" href="https://split.to/lEsmoCz" class="block card rounded overflow-hidden">
+  <a target="_blank" rel="me noopener noreferrer" href="https://www.bigboycancode.com/hiskio-js" class="block card rounded overflow-hidden">
     <img src="<?php echo get_theme_file_uri('/images/courses/hiskio-js.png') ?>" alt="hiskio-css-課程" class="w-full" />
     <div class="px-4 py-6 border-b-8 border-teal-600">
       <p class="text-xs">中文字幕</p>
@@ -34,7 +34,7 @@
       <div class="flex justify-between">
         <div class="flex items-center">
           <?php get_template_part('template-parts/content', 'svg-user'); ?>
-          278人
+          350人
         </div>
 
         <div class="flex items-center">
@@ -58,7 +58,7 @@
       <div class="flex justify-between">
         <div class="flex items-center">
           <?php get_template_part('template-parts/content', 'svg-user'); ?>
-          239人
+          250人
         </div>
 
         <div class="flex items-center">
