@@ -11,7 +11,7 @@ while (have_posts()) : the_post(); ?>
 </header>
 
 
-<section class="py-0 sm:py-16">
+<section class="py-0 sm:py-16 single">
   <div class="container px-3 mx-auto">
     <div class="flex flex-wrap -mx-3 sm:-mx-8">
       <div class="w-full sm:w-3/12 sm:px-8">
